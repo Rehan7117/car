@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background for better readability */
+    color: #333; /* Default text color */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2f4d00; /* Deep navy */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #00bcd4; /* Aqua highlight on hover */
+}
+
+/* Hero Section */
+.hero {
+    height: 400px;
+    background: url('bg1.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Subtle shadow for text */
+}
+
+.hero p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Featured Bikes Section */
+.featured-bikes {
+    padding: 40px 20px;
+    background-color: #e3f2fd; /* Light blue background */
+    text-align: center;
+}
+
+.featured-bikes h2 {
+    font-size: 2.5rem;
+    color: #00274d; /* Deep navy text */
+    margin-bottom: 20px;
+}
+
+.featured-bikes p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.bike-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual Bike Item */
+.bike-item {
+    background: #ffffff; /* White background */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.bike-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.bike-item h3 {
+    font-size: 1.4rem;
+    color: #00274d; /* Deep navy */
+    margin-bottom: 10px;
+}
+
+.bike-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.bike-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Lift effect on hover */
+    border-color: #00bcd4; /* Aqua highlight */
+}
+
+/* Contact Section */
+.contact {
+    background-color: #00274d; /* Deep navy */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.contact a {
+    color: #00bcd4; /* Aqua links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: text-decoration 0.3s;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: #00acc1; /* Lighter aqua on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #001f3f; /* Dark navy */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+    font-weight: bold;
+}
